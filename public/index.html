@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>OpporTune — Your skills. Your interests. Your next opportunity.</title>
+<meta name="description" content="OpporTune helps students discover internships, hackathons, scholarships and courses matched to their skills and interests." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            50: '#f2f6ff', 100: '#e6edff', 200: '#c3d4ff', 300: '#9fb8ff',
+            400: '#5c85ff', 500: '#3b63f6', 600: '#2b48d9', 700: '#2138ad',
+            800: '#1c2f8a', 900: '#182970'
+          }
+        },
+        fontFamily: {
+          sans: ['Sora', 'ui-sans-serif', 'system-ui', 'sans-serif']
+        },
+        boxShadow: {
+          soft: '0 10px 30px -12px rgba(23, 41, 112, 0.18)',
+          card: '0 4px 16px -4px rgba(23, 41, 112, 0.10)'
+        }
+      }
+    }
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="font-sans bg-slate-50 text-slate-800 antialiased">
+<div id="app"></div>
+<script src="/app.js"></script>
+</body>
+</html>
