@@ -1,0 +1,784 @@
+[
+  {
+    "id": "opp_001",
+    "title": "AI/ML Internship",
+    "organization": "XYZ Labs",
+    "category": "Internship",
+    "description": "Work alongside our applied AI team building recommendation and NLP systems used in production. You'll get hands-on experience with real datasets, model evaluation, and deployment pipelines.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas"
+    ],
+    "interests": [
+      "AI/ML",
+      "Data Science"
+    ],
+    "education": [
+      "Diploma/AIML",
+      "B.Tech/CSE",
+      "B.Tech/IT",
+      "B.Sc/CS"
+    ],
+    "location": "Bengaluru",
+    "remote": false,
+    "deadline": "2026-09-29",
+    "duration": "3 months",
+    "eligibility": "Final year students or recent graduates in AI/ML, CS or IT.",
+    "applicationUrl": "https://example.com/careers/xyz-labs-ai-ml-internship"
+  },
+  {
+    "id": "opp_002",
+    "title": "Frontend Engineering Internship",
+    "organization": "Nimbus Cloud",
+    "category": "Internship",
+    "description": "Build and ship customer-facing dashboards using React. Pair with senior engineers on component architecture, accessibility, and performance.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-06",
+    "duration": "6 months",
+    "eligibility": "Students comfortable with modern JS frameworks.",
+    "applicationUrl": "https://example.com/careers/nimbus-frontend-internship"
+  },
+  {
+    "id": "opp_003",
+    "title": "Data Science Internship",
+    "organization": "InsightForge Analytics",
+    "category": "Internship",
+    "description": "Analyze large datasets to uncover business insights. You'll build dashboards and statistical models under the mentorship of our data science lead.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Data Science"
+    ],
+    "interests": [
+      "Data Science",
+      "AI/ML"
+    ],
+    "education": [
+      "B.Tech/CSE",
+      "B.Sc/CS",
+      "MCA",
+      "Diploma/AIML"
+    ],
+    "location": "Pune",
+    "remote": false,
+    "deadline": "2026-10-11",
+    "duration": "4 months",
+    "eligibility": "Basic statistics and SQL knowledge required.",
+    "applicationUrl": "https://example.com/careers/insightforge-ds-internship"
+  },
+  {
+    "id": "opp_004",
+    "title": "Cybersecurity Internship",
+    "organization": "SentinelGrid Security",
+    "category": "Internship",
+    "description": "Assist the SOC team with vulnerability assessments, log analysis, and incident response drills in a safe sandboxed environment.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Python"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "B.Tech/CSE",
+      "B.Tech/IT",
+      "Any Degree"
+    ],
+    "location": "Hyderabad",
+    "remote": false,
+    "deadline": "2026-10-22",
+    "duration": "3 months",
+    "eligibility": "Basic networking fundamentals required.",
+    "applicationUrl": "https://example.com/careers/sentinelgrid-cyber-internship"
+  },
+  {
+    "id": "opp_005",
+    "title": "Backend Development Internship",
+    "organization": "Loopstack Technologies",
+    "category": "Internship",
+    "description": "Design and build REST APIs powering our SaaS product. Learn database design, caching, and scalable service architecture.",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "JavaScript"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-11",
+    "duration": "6 months",
+    "eligibility": "Familiarity with any backend framework.",
+    "applicationUrl": "https://example.com/careers/loopstack-backend-internship"
+  },
+  {
+    "id": "opp_006",
+    "title": "Product Management Internship",
+    "organization": "Vertex Startups Studio",
+    "category": "Internship",
+    "description": "Support product discovery, write specs, and run user interviews for an early-stage startup incubated at our studio.",
+    "skills": [
+      "Communication",
+      "Excel"
+    ],
+    "interests": [
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any Degree"
+    ],
+    "location": "Mumbai",
+    "remote": false,
+    "deadline": "2026-10-15",
+    "duration": "3 months",
+    "eligibility": "Strong communication and analytical skills.",
+    "applicationUrl": "https://example.com/careers/vertex-pm-internship"
+  },
+  {
+    "id": "opp_007",
+    "title": "FIT FEST National Hackathon 2026",
+    "organization": "FIT FEST Foundation",
+    "category": "Hackathon",
+    "description": "A 36-hour national hackathon inviting students to build software solutions for real-world civic and campus problems. Cash prizes and incubation support for top teams.",
+    "skills": [
+      "JavaScript",
+      "Python",
+      "React"
+    ],
+    "interests": [
+      "Web Development",
+      "AI/ML",
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Pune",
+    "remote": false,
+    "deadline": "2026-10-02",
+    "duration": "36 hours",
+    "eligibility": "Open to all undergraduate and diploma students.",
+    "applicationUrl": "https://example.com/events/fit-fest-hackathon-2026"
+  },
+  {
+    "id": "opp_008",
+    "title": "AI for Good Hackathon",
+    "organization": "OpenMind Foundation",
+    "category": "Hackathon",
+    "description": "Build machine learning solutions tackling healthcare, education, or climate challenges. Mentorship from applied ML researchers included.",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ],
+    "interests": [
+      "AI/ML"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-09",
+    "duration": "48 hours",
+    "eligibility": "Teams of 2-4 students.",
+    "applicationUrl": "https://example.com/events/ai-for-good-hackathon"
+  },
+  {
+    "id": "opp_009",
+    "title": "CyberShield CTF Hackathon",
+    "organization": "SentinelGrid Security",
+    "category": "Hackathon",
+    "description": "A capture-the-flag style security hackathon covering web exploitation, cryptography, and reverse engineering challenges.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Python"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Hyderabad",
+    "remote": false,
+    "deadline": "2026-10-17",
+    "duration": "24 hours",
+    "eligibility": "Solo or teams up to 3.",
+    "applicationUrl": "https://example.com/events/cybershield-ctf"
+  },
+  {
+    "id": "opp_010",
+    "title": "GreenTech Innovation Hackathon",
+    "organization": "EcoNext Alliance",
+    "category": "Hackathon",
+    "description": "Design software prototypes for sustainability — energy tracking, waste management, or carbon footprint tools.",
+    "skills": [
+      "React",
+      "JavaScript"
+    ],
+    "interests": [
+      "Web Development",
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-30",
+    "duration": "48 hours",
+    "eligibility": "Open to all students.",
+    "applicationUrl": "https://example.com/events/greentech-hackathon"
+  },
+  {
+    "id": "opp_011",
+    "title": "Machine Learning Specialization",
+    "organization": "CourseForge Academy",
+    "category": "Course",
+    "description": "A self-paced online specialization covering supervised learning, neural networks, and practical model deployment.",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ],
+    "interests": [
+      "AI/ML",
+      "Data Science"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-26",
+    "duration": "8 weeks",
+    "eligibility": "Basic Python knowledge recommended.",
+    "applicationUrl": "https://example.com/courses/ml-specialization"
+  },
+  {
+    "id": "opp_012",
+    "title": "Full-Stack Web Development Bootcamp",
+    "organization": "CodeCrafters Institute",
+    "category": "Course",
+    "description": "Learn to build and deploy full-stack applications using modern JavaScript frameworks, from database design to production deployment.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-06",
+    "duration": "10 weeks",
+    "eligibility": "No prior experience required.",
+    "applicationUrl": "https://example.com/courses/fullstack-bootcamp"
+  },
+  {
+    "id": "opp_013",
+    "title": "Data Analytics with SQL & Excel",
+    "organization": "InsightForge Analytics",
+    "category": "Course",
+    "description": "Practical, project-based course teaching data cleaning, querying, and dashboarding for business analytics roles.",
+    "skills": [
+      "SQL",
+      "Excel",
+      "Data Science"
+    ],
+    "interests": [
+      "Data Science"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-16",
+    "duration": "6 weeks",
+    "eligibility": "Open to beginners.",
+    "applicationUrl": "https://example.com/courses/data-analytics-sql-excel"
+  },
+  {
+    "id": "opp_014",
+    "title": "Ethical Hacking Fundamentals",
+    "organization": "SentinelGrid Academy",
+    "category": "Course",
+    "description": "Learn penetration testing basics, network security, and responsible disclosure practices with hands-on labs.",
+    "skills": [
+      "Networking",
+      "Linux"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-12-06",
+    "duration": "6 weeks",
+    "eligibility": "Basic computer literacy.",
+    "applicationUrl": "https://example.com/courses/ethical-hacking-fundamentals"
+  },
+  {
+    "id": "opp_015",
+    "title": "Startup 101: From Idea to MVP",
+    "organization": "Vertex Startups Studio",
+    "category": "Course",
+    "description": "A practical course on validating startup ideas, building MVPs, and pitching to early investors.",
+    "skills": [
+      "Communication"
+    ],
+    "interests": [
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-04",
+    "duration": "4 weeks",
+    "eligibility": "Open to all students and early founders.",
+    "applicationUrl": "https://example.com/courses/startup-101"
+  },
+  {
+    "id": "opp_016",
+    "title": "Certified Python Developer",
+    "organization": "CourseForge Academy",
+    "category": "Certification",
+    "description": "An industry-recognized certification validating core and intermediate Python programming skills.",
+    "skills": [
+      "Python"
+    ],
+    "interests": [
+      "AI/ML",
+      "Data Science"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-09-30",
+    "duration": "Self-paced exam",
+    "eligibility": "Open to all.",
+    "applicationUrl": "https://example.com/certifications/python-developer"
+  },
+  {
+    "id": "opp_017",
+    "title": "Cloud Fundamentals Certification",
+    "organization": "Nimbus Cloud",
+    "category": "Certification",
+    "description": "Learn and get certified on core cloud concepts: compute, storage, networking, and deployment on modern cloud platforms.",
+    "skills": [
+      "Linux",
+      "Networking"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-25",
+    "duration": "Self-paced exam",
+    "eligibility": "No prerequisites.",
+    "applicationUrl": "https://example.com/certifications/cloud-fundamentals"
+  },
+  {
+    "id": "opp_018",
+    "title": "SQL for Data Professionals",
+    "organization": "InsightForge Analytics",
+    "category": "Certification",
+    "description": "A hands-on certification exam testing advanced SQL querying, joins, and optimization skills.",
+    "skills": [
+      "SQL",
+      "Data Science"
+    ],
+    "interests": [
+      "Data Science"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-12",
+    "duration": "Self-paced exam",
+    "eligibility": "Basic SQL knowledge recommended.",
+    "applicationUrl": "https://example.com/certifications/sql-data-professionals"
+  },
+  {
+    "id": "opp_019",
+    "title": "Certified Ethical Hacker (Foundation)",
+    "organization": "SentinelGrid Academy",
+    "category": "Certification",
+    "description": "Entry-level certification covering security fundamentals, common attack vectors, and defensive techniques.",
+    "skills": [
+      "Networking",
+      "Linux"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-21",
+    "duration": "Self-paced exam",
+    "eligibility": "Open to all students.",
+    "applicationUrl": "https://example.com/certifications/ceh-foundation"
+  },
+  {
+    "id": "opp_020",
+    "title": "AI Talent Scholarship",
+    "organization": "OpenMind Foundation",
+    "category": "Scholarship",
+    "description": "A merit-based scholarship supporting students pursuing AI/ML education, covering tuition and providing mentorship.",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ],
+    "interests": [
+      "AI/ML"
+    ],
+    "education": [
+      "Diploma/AIML",
+      "B.Tech/CSE",
+      "B.Sc/CS"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-17",
+    "duration": "1 year",
+    "eligibility": "Minimum 75% aggregate marks.",
+    "applicationUrl": "https://example.com/scholarships/ai-talent-scholarship"
+  },
+  {
+    "id": "opp_021",
+    "title": "Women in Tech Scholarship",
+    "organization": "Nimbus Cloud Foundation",
+    "category": "Scholarship",
+    "description": "Financial support and mentorship for women pursuing degrees in computer science and related fields.",
+    "skills": [],
+    "interests": [
+      "Web Development",
+      "AI/ML",
+      "Data Science",
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any Degree"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-11-14",
+    "duration": "1 year",
+    "eligibility": "Open to women-identifying students in tech disciplines.",
+    "applicationUrl": "https://example.com/scholarships/women-in-tech"
+  },
+  {
+    "id": "opp_022",
+    "title": "First-Generation Learner Scholarship",
+    "organization": "EduBridge Trust",
+    "category": "Scholarship",
+    "description": "Supports first-generation college students with tuition assistance and career guidance sessions.",
+    "skills": [],
+    "interests": [],
+    "education": [
+      "Any Degree",
+      "Diploma/AIML"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-12-01",
+    "duration": "1 year",
+    "eligibility": "First-generation college students, income criteria apply.",
+    "applicationUrl": "https://example.com/scholarships/first-gen-learner"
+  },
+  {
+    "id": "opp_023",
+    "title": "Rural Innovator Scholarship",
+    "organization": "Vertex Startups Studio",
+    "category": "Scholarship",
+    "description": "Recognizes students from rural backgrounds building innovative tech or entrepreneurial projects.",
+    "skills": [],
+    "interests": [
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any Degree"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-12-16",
+    "duration": "1 year",
+    "eligibility": "Applicants from rural/tier-3 towns.",
+    "applicationUrl": "https://example.com/scholarships/rural-innovator"
+  },
+  {
+    "id": "opp_024",
+    "title": "National Data Science Challenge",
+    "organization": "InsightForge Analytics",
+    "category": "Competition",
+    "description": "A Kaggle-style competition where students compete to build the most accurate predictive model on a real-world dataset.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas"
+    ],
+    "interests": [
+      "Data Science",
+      "AI/ML"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-09-28",
+    "duration": "2 weeks",
+    "eligibility": "Individuals or teams of up to 3.",
+    "applicationUrl": "https://example.com/competitions/national-ds-challenge"
+  },
+  {
+    "id": "opp_025",
+    "title": "Web Design Sprint Championship",
+    "organization": "CodeCrafters Institute",
+    "category": "Competition",
+    "description": "A timed design-and-build competition judging UI/UX craft, responsiveness, and code quality.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-04",
+    "duration": "48 hours",
+    "eligibility": "Open to all students.",
+    "applicationUrl": "https://example.com/competitions/web-design-sprint"
+  },
+  {
+    "id": "opp_026",
+    "title": "Pitch Perfect Business Plan Competition",
+    "organization": "Vertex Startups Studio",
+    "category": "Competition",
+    "description": "Pitch your startup idea to a panel of investors and mentors for a chance at seed funding and incubation.",
+    "skills": [
+      "Communication"
+    ],
+    "interests": [
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Mumbai",
+    "remote": false,
+    "deadline": "2026-10-27",
+    "duration": "1 day final",
+    "eligibility": "Open to student founders and teams.",
+    "applicationUrl": "https://example.com/competitions/pitch-perfect"
+  },
+  {
+    "id": "opp_027",
+    "title": "CTF Cyber Defense Challenge",
+    "organization": "SentinelGrid Security",
+    "category": "Competition",
+    "description": "Defend simulated infrastructure against live attacks in this team-based cyber-defense competition.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Python"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-08",
+    "duration": "24 hours",
+    "eligibility": "Teams of 3-5.",
+    "applicationUrl": "https://example.com/competitions/ctf-cyber-defense"
+  },
+  {
+    "id": "opp_028",
+    "title": "Hands-on Deep Learning Workshop",
+    "organization": "OpenMind Foundation",
+    "category": "Workshop",
+    "description": "A weekend workshop covering neural networks, CNNs, and transformer basics with guided coding labs.",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ],
+    "interests": [
+      "AI/ML"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-03",
+    "duration": "2 days",
+    "eligibility": "Basic Python required.",
+    "applicationUrl": "https://example.com/workshops/deep-learning-workshop"
+  },
+  {
+    "id": "opp_029",
+    "title": "React & Modern Frontend Workshop",
+    "organization": "CodeCrafters Institute",
+    "category": "Workshop",
+    "description": "Learn component design, hooks, and state management patterns in a hands-on, project-based format.",
+    "skills": [
+      "React",
+      "JavaScript"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-13",
+    "duration": "1 day",
+    "eligibility": "Basic JavaScript knowledge.",
+    "applicationUrl": "https://example.com/workshops/react-frontend-workshop"
+  },
+  {
+    "id": "opp_030",
+    "title": "Intro to Cloud Deployment Workshop",
+    "organization": "Nimbus Cloud",
+    "category": "Workshop",
+    "description": "Deploy your first containerized application to the cloud in this guided hands-on session.",
+    "skills": [
+      "Linux",
+      "Node.js"
+    ],
+    "interests": [
+      "Web Development"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-19",
+    "duration": "1 day",
+    "eligibility": "Basic command-line familiarity.",
+    "applicationUrl": "https://example.com/workshops/cloud-deployment-workshop"
+  },
+  {
+    "id": "opp_031",
+    "title": "Data Storytelling with Dashboards",
+    "organization": "InsightForge Analytics",
+    "category": "Workshop",
+    "description": "Learn to turn raw data into compelling visual narratives using dashboarding best practices.",
+    "skills": [
+      "SQL",
+      "Excel",
+      "Data Science"
+    ],
+    "interests": [
+      "Data Science"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-01",
+    "duration": "1 day",
+    "eligibility": "Open to all students.",
+    "applicationUrl": "https://example.com/workshops/data-storytelling"
+  },
+  {
+    "id": "opp_032",
+    "title": "Cybersecurity Awareness Workshop",
+    "organization": "SentinelGrid Security",
+    "category": "Workshop",
+    "description": "An introductory workshop on phishing, password hygiene, and everyday digital safety practices.",
+    "skills": [
+      "Networking"
+    ],
+    "interests": [
+      "Cybersecurity"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-10",
+    "duration": "Half day",
+    "eligibility": "Open to everyone, no prerequisites.",
+    "applicationUrl": "https://example.com/workshops/cybersecurity-awareness"
+  },
+  {
+    "id": "opp_033",
+    "title": "Founder Fireside: Building in Public",
+    "organization": "Vertex Startups Studio",
+    "category": "Workshop",
+    "description": "Interactive session with founders sharing lessons on building, launching, and scaling early-stage products.",
+    "skills": [
+      "Communication"
+    ],
+    "interests": [
+      "Entrepreneurship"
+    ],
+    "education": [
+      "Any"
+    ],
+    "location": "Remote",
+    "remote": true,
+    "deadline": "2026-10-21",
+    "duration": "Half day",
+    "eligibility": "Open to all students.",
+    "applicationUrl": "https://example.com/workshops/founder-fireside"
+  }
+]

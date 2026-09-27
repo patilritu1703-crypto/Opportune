@@ -1,0 +1,15 @@
+{
+  "name": "opportune",
+  "version": "1.0.0",
+  "description": "OpporTune - Student Opportunity Discovery Platform (FIT FEST Hackathon 2026)",
+  "type": "module",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

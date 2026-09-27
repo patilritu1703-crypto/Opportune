@@ -1,0 +1,258 @@
+html { scroll-behavior: smooth; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+.fade-in { animation: fadeIn .25s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 500;
+  border: 1.5px solid #e2e8f0; background: white; color: #475569; cursor: pointer;
+  user-select: none; transition: all .12s ease;
+}
+.chip:hover { border-color: #9fb8ff; }
+.chip.selected {
+  background: #2b48d9; border-color: #2b48d9; color: white;
+}
+
+.progress-ring-bg { stroke: #e2e8f0; }
+
+.nav-link {
+  display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-radius: 12px;
+  color: #475569; font-weight: 500; font-size: 14px; transition: all .12s ease;
+}
+.nav-link:hover { background: #f1f5f9; color: #1e293b; }
+.nav-link.active { background: #eef2ff; color: #2b48d9; font-weight: 600; }
+
+.line-clamp-2 {
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.card-hover { transition: transform .15s ease, box-shadow .15s ease; }
+.card-hover:hover { transform: translateY(-3px); }
+
+.skeleton {
+  background: linear-gradient(90deg, #eef1f6 25%, #f8fafc 37%, #eef1f6 63%);
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.4s ease infinite;
+}
+@keyframes skeleton-loading { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+
+.modal-backdrop { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(2px); }
+
+/* ============================================================
+   OpporTune UI Refresh — premium student dashboard
+   ============================================================ */
+:root {
+  --op-brand: #4f46e5;
+  --op-brand-2: #7c3aed;
+  --op-ink: #0f172a;
+  --op-muted: #64748b;
+  --op-border: rgba(148, 163, 184, .20);
+  --op-card: rgba(255,255,255,.88);
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% -5%, rgba(99,102,241,.10), transparent 28%),
+    radial-gradient(circle at 95% 0%, rgba(124,58,237,.08), transparent 25%),
+    #f8fafc;
+}
+
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid rgba(99,102,241,.22);
+  outline-offset: 2px;
+}
+
+/* Glass / card treatment */
+.bg-white {
+  background-color: rgba(255,255,255,.92);
+}
+.shadow-card {
+  box-shadow: 0 10px 30px -18px rgba(15,23,42,.28), 0 2px 8px -4px rgba(15,23,42,.08);
+}
+
+.card-hover {
+  border-color: rgba(148,163,184,.18) !important;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(99,102,241,.25) !important;
+  box-shadow: 0 20px 45px -24px rgba(49,46,129,.30);
+}
+
+/* Sidebar */
+aside {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.98), rgba(248,250,252,.96)) !important;
+  box-shadow: 10px 0 35px -30px rgba(15,23,42,.35);
+}
+aside .nav-link {
+  position: relative;
+  border: 1px solid transparent;
+}
+aside .nav-link.active {
+  background: linear-gradient(90deg, #eef2ff, #f5f3ff);
+  border-color: #e0e7ff;
+  box-shadow: 0 8px 20px -16px rgba(79,70,229,.65);
+}
+aside .nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 99px;
+  background: linear-gradient(#4f46e5, #7c3aed);
+}
+
+/* Buttons */
+.bg-brand-600 {
+  background: linear-gradient(135deg, #4f46e5, #6366f1) !important;
+}
+.bg-brand-600:hover, .hover\\:bg-brand-700:hover {
+  filter: brightness(.96);
+}
+
+/* Page headings */
+main h1 {
+  letter-spacing: -.035em;
+}
+main h2 {
+  letter-spacing: -.015em;
+}
+
+/* Stat cards */
+.grid.grid-cols-2.sm\\:grid-cols-4 > div {
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.grid.grid-cols-2.sm\\:grid-cols-4 > div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px -22px rgba(15,23,42,.4);
+}
+
+/* Featured match */
+.bg-gradient-to-br.from-brand-600 {
+  position: relative;
+  box-shadow: 0 24px 50px -30px rgba(79,70,229,.65);
+}
+.bg-gradient-to-br.from-brand-600::after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: -110px;
+  bottom: -150px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.08);
+  pointer-events: none;
+}
+
+/* Opportunity cards */
+[data-open-modal] h3 {
+  letter-spacing: -.015em;
+}
+[data-open-modal] .rounded-lg.bg-slate-100 {
+  background: linear-gradient(135deg,#f1f5f9,#eef2ff);
+}
+
+/* Form controls */
+input, select, textarea {
+  transition: border-color .15s ease, box-shadow .15s ease, background .15s ease;
+}
+input:hover, select:hover, textarea:hover {
+  border-color: #cbd5e1;
+}
+
+/* Resume scanner */
+#resume-text {
+  min-height: 130px;
+  resize: vertical;
+  line-height: 1.65;
+}
+
+/* Match breakdown */
+[style*="conic-gradient"] {
+  box-shadow: 0 10px 25px -16px rgba(79,70,229,.5);
+}
+
+/* Tracker */
+[data-tracker-drop] {
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+[data-tracker-drop]:hover {
+  background: rgba(238,242,255,.72);
+  border-color: rgba(129,140,248,.45);
+}
+[data-tracker-id] {
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+[data-tracker-id]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -18px rgba(15,23,42,.35);
+}
+
+/* Application modal */
+.modal-backdrop {
+  background: rgba(15,23,42,.62);
+  backdrop-filter: blur(8px);
+}
+.modal-backdrop > div {
+  box-shadow: 0 35px 90px -35px rgba(15,23,42,.55);
+}
+
+/* Assistant */
+[data-action="toggle-ai"] {
+  background: linear-gradient(135deg,#0f172a,#312e81) !important;
+  box-shadow: 0 16px 35px -18px rgba(15,23,42,.65);
+}
+
+/* Landing page polish */
+.fade-in > header:first-child {
+  position: relative;
+}
+.fade-in > header:first-child::after {
+  content: "";
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e2e8f0, transparent);
+}
+
+/* Mobile bottom nav */
+@media (max-width: 1023px) {
+  main {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+@media (max-width: 640px) {
+  .modal-backdrop > div { max-height: 95vh; }
+  .card-hover:hover { transform: none; }
+}
+
+/* Small status pulse */
+.status-live {
+  position: relative;
+}
+.status-live::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 0 4px rgba(16,185,129,.12);
+}
