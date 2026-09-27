@@ -1195,7 +1195,22 @@ function attachRouteHandlers() {
   }
 }
 
+function syncProfileFormDraft() {
+  const form = document.getElementById("profile-form");
+  if (!form || !state.formDraft) return;
+
+  const fd = new FormData(form);
+  state.formDraft.name = String(fd.get("name") || "").trim();
+  state.formDraft.education = String(fd.get("education") || "").trim();
+  state.formDraft.college = String(fd.get("college") || "").trim();
+  state.formDraft.year = String(fd.get("year") || "").trim();
+}
+
 function toggleChip(field, value) {
+  // Chip clicks re-render the form. Save the text fields first so
+  // name/education/college/year do not disappear while selecting skills.
+  syncProfileFormDraft();
+
   const d = ensureDraft();
   const idx = d[field].indexOf(value);
   if (idx >= 0) d[field].splice(idx, 1);
